@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #000;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+.container{
+    width:50%;
+    height:calc(100vh - 200px);
+    display: flex;
+    gap: 5px;
+}
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+.container img:hover{
+    width: 100%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./images/iron-man.jpg" alt="Iron Man">
+        <img src="./images/black panther.jpg" alt="Black panther">
+        <img src="./images/Spider man.jpg" alt="Spider Man">
+        <img src="./images/hulk.jpg" alt="Hulk">
+    </div>
+</body>
+</html>
